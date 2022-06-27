@@ -1,0 +1,216 @@
+@import url(http://fonts.cdnfonts.com/css/alphacentauri);
+div {
+    display: block;
+}
+
+.Down {
+    transform: rotate(45deg);
+}
+
+.Arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+user agent stylesheet i {
+    font-style: italic;
+}
+
+#hlavniMenu {
+    color: black;
+    line-height: 20px;
+    text-align: center;
+    font-family: AlphaCentauri;
+}
+
+#LittleAboutIt {
+    text-align: center;
+    line-height: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(250, 115, 137);
+    color: white;
+    padding: 5%;
+    text-decoration: none;
+    font-style: italic;
+}
+
+#story {
+    text-decoration: none;
+}
+
+body {
+    background-color: white;
+    margin: 4%;
+    font-family: "DM Sans";
+}
+
+Ibutton {
+    color: #000;
+}
+
+#WannaHelp {
+    background-color: rgb(250, 115, 137);
+    text-align: center;
+    line-height: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 20px;
+    color: white;
+    font-style: italic;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+Little {
+    color: black;
+}
+
+Fcontact {
+    color: black;
+}
+
+contact {
+    color: rgb(250, 115, 137);
+}
+
+footer {
+    color: white;
+}
+
+madeBy {
+    color: rgb(250, 115, 137);
+}
+
+someC {
+    color: rgb(250, 115, 137);
+    line-height: 20px;
+}
+
+txt {
+    line-height: 10px;
+}
+
+someF {
+    color: black;
+    line-height: 0px
+}
+
+big {
+    text-align: center;
+    color: rgb(250, 115, 137);
+    line-height: 0px;
+}
+
+small {
+    color: #000;
+}
+
+body,
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* Navigacion */
+
+nav {
+    margin-left: auto;
+    margin-right: auto;
+    place-content: center;
+    position: center;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+a {
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+    width: 1020px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+linkyNav {
+    text-decoration: none;
+    color: black;
+    cursor: butt;
+    position: center;
+}
+
+nav a {
+    cursor: butt;
+    text-align: center;
+    color: black;
+    float: none;
+    text-decoration: none;
+    place-content: center;
+    position: center;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-align: center;
+    transition: smooth;
+    color: rgb(250, 115, 137);
+}
+
+.clearfix:after {
+    text-align: center;
+    content: "";
+    display: table;
+    clear: both;
+    place-content: center;
+}
+
+.button {
+    position: relative;
+    color: var(--textColor2);
+    border-radius: 26px;
+    background-image: linear-gradient(90deg, rgb(250, 115, 137), #0065ff, rgb(250, 115, 137), #6554c0, #008cff, #0065ff, rgb(250, 115, 137));
+    background-size: 400%;
+    background-position: 0% 0%;
+}
+
+iframe {
+    border-radius: 30px;
+}
+
+#made {
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgb(250, 115, 137);
+}
+
+#instal {
+    text-align: center;
+    line-height: 15px;
+    font-style: italic;
+    font-size: large;
+}
+
+ik {
+    text-decoration: underline;
+}
