@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--- css --->
+    <link rel="stylesheet" type="text/css" href="Home-LittleTerminal.css">
+    <!--- js --->
+    <script src="Home-LittleTerminal.js"></script>
+    <!--- title --->
+    <title>Home LittleTerminal</title>
+
+    <style>
+        .button {
+            display: inline-block;
+            border-radius: 4px;
+            background-color: rgb(172, 2, 172);
+            border: none;
+            color: #FFFFFF;
+            text-align: center;
+            font-size: 25px;
+            padding: 20px;
+            width: 200px;
+            transition: all 0.5s;
+            cursor: pointer;
+            margin: 5px;
+            place-content: center;
+            border-radius: 10005px;
+        }
+        
+        .button span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+        }
+        
+        .button span:after {
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+        }
+        
+        .button:hover span {
+            padding-right: 25px;
+        }
+        
+        .button:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!--- link on the mountain --->
+    <header>
+        <br>
+        <br>
+        <LTimg>
+            <img src="LTsymbol.png" alt="logo of LittleTerminal" style="width:50px">
+        </LTimg>
+        <div class="clearfix">
+            <nav>
+
+                <a href="About-LittleTerminal.html" class="linkyNav">
+                    <h4>About</h4>
+                </a>
+
+                <a href="index.html" class="linkyNav">
+                    <h3>Home</h3>
+                </a>
+
+
+                <a href="Contact-LittleTerminal.html" class="linkyNav">
+                    <h4>Contact</h4>
+                </a>
+
+
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!---txt --->
+        <br>
+        <div id="hlavniMenu">
+            <br>
+            <br>
+            <br>
+            <h1>This is <big>simple file</big> which can <big>help you</big>.</h1>
+            <h2>click on button for scroll down.</h2>
+            <i class="Arrow Down" onclick="scrollToObject(`LittleAboutIt`)"></i>
+        </div>
+        <!--- txt --->
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div id="LittleAboutIt">
+            <h2>A little about it.</h2>
+            <p id="Story">This project is in beta version so it doesn't be end of programing LittleTeminal.</p>
+        </div>
+        <txt>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </txt>
+        <div id="WannaHelp">
+            <h2>Do you wanna help?</h2>
+            <p>If you wanna some help look on page About on top of the web and if that what you wanna know isn't be there then go to page Contact (is too be on the top of the web) and write me email.</p>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div id="instal">
+            <h2>Do you <big>wanna install</big>?</h2>
+            <h3>If you wanna install LittleTerminal project then <big>click on button with text "<ik>install here</ik>"</big></h3>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+    </main>
+    <br>
+
+    <a href="LittleTerminal.exe">
+        <button class="button" style="vertical-align:middle"><span>install here </span></button>
+    </a>
+    <hr>
+    <br>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/P_aHCdzurkI?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div id="made">
+        <h3>made by Vertyx</h3>
+        <h2>©</h2>
+    </div>
+</body>
+
+</html>
